@@ -124,14 +124,11 @@ h1 {
     form {
         padding: 20px;
         font-size: 13px;
-        max-width: 85vw;
+        /* max-width: 85vw; */
     }
 
     .form-box input {
-        width: 100%;
         padding: 5px;
         font-style: 13px;
-        border: 1px solid rgb(197, 197, 197);
-        border-radius: 5px;
     }
 }
