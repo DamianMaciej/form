@@ -16,15 +16,13 @@ body {
 }
 
 .wrapper {
-    width: 440px;
-    max-width: 80vw;
     background-color: #fff;
     box-shadow: 0 0 10px #000;
 }
 
 form {
     padding: 40px;
-    font-style: 20px;
+    font-size: 15px;
 }
 
 h1 {
@@ -94,19 +92,20 @@ h1 {
     align-items: center;
     flex-direction: column;
     position: absolute;
+    font-size: 20px;
     top: -300px;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 600px;
-    height: 200px;
-    background-color: #fff;
+    width: 60vw;
+    height: 20vh;
+    background-color: #ffffff;
     border-radius: 8px;
     border: 2px solid #000;
     transition: top .5s;
 }
 
 .popup p {
-    font-size: 28px;
+    font-size: 20px;
 }
 
 .popup button {
@@ -115,4 +114,23 @@ h1 {
 
 .show-popup {
     top: 150px;
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        margin-bottom: 15px;
+    }
+
+    form {
+        padding: 20px;
+        font-size: 13px;
+    }
+
+    .form-box input {
+        width: 100%;
+        padding: 5px;
+        font-style: 13px;
+        border: 1px solid rgb(197, 197, 197);
+        border-radius: 5px;
+    }
 }
