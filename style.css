@@ -133,6 +133,8 @@ h1 {
     }
 
     .popup {
-        font-size: 15px;
+        font-size: 13px;
+        min-width: 80vw;
+        min-height: 40vh;
     }
 }
